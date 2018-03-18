@@ -1,0 +1,25 @@
+# templates/layout/partials/head.html
+# ------------------------------------------
+%INPUT
+       <blc:bundle name="admin/admin.css"
+                    mapping-prefix="/css/"
+                    files="admin/icon-style.css,
+                           admin/bootstrap.css,
+                           admin/font-awesome.min.css,
+                           admin/blc-query-builder.css,
+                           admin/jquery-ui-1.10.2.custom.css,
+                           admin/jquery.mCustomScrollbar.css,
+                           admin/selectize-admin-customizations.css" ></blc:bundle>
+
+# ------------------------------------------
+%OUTPUT
+
+       <script name="admin/admin.css"
+                    mapping-prefix="/css/"
+                    files="admin/icon-style.css,
+                           admin/bootstrap.css,
+                           admin/font-awesome.min.css,
+                           admin/blc-query-builder.css,
+                           admin/jquery-ui-1.10.2.custom.css,
+                           admin/jquery.mCustomScrollbar.css,
+                           admin/selectize-admin-customizations.css" ></blc:bundle>

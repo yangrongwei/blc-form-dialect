@@ -1,0 +1,10 @@
+%TEMPLATE_MODE HTML5
+# ------------------------------------------
+%INPUT
+    <blc:bundle name="admin-init.js"
+                mapping-prefix="/js/"
+                files="admin/blc-admin-init.js" ></blc:bundle>
+
+# ------------------------------------------
+%OUTPUT
+   <script src="/js/admin/blc-admin-init.js"/>
