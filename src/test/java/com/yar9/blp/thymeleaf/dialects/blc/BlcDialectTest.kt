@@ -1,14 +1,10 @@
 package com.yar9.blp.thymeleaf.dialects.blc
 
-import org.junit.Before
 import org.junit.jupiter.api.Assertions
-import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import org.mockito.Mockito
 import org.thymeleaf.dialect.IDialect
-import org.thymeleaf.linkbuilder.StandardLinkBuilder
 import org.thymeleaf.standard.StandardDialect
-import org.thymeleaf.standard.expression.StandardExpressionExecutionContext
 import org.thymeleaf.testing.templateengine.context.web.WebProcessingContextBuilder
 import org.thymeleaf.testing.templateengine.engine.TestExecutor
 import org.thymeleaf.testing.templateengine.testable.ITest
@@ -72,6 +68,16 @@ internal class BlcDialectTest {
         val executor = TestExecutor()
         executor.dialects = dialects
         executor.execute("classpath:blctestset/bundle-css.thtest")
+        Assertions.assertTrue(executor.isAllOK());
+    }
+
+    @Test
+    fun formLogin() {
+        val executor = TestExecutor()
+        executor.dialects = listOf<IDialect>(
+                BlcDialect()
+        )
+        executor.execute("classpath:blctestset/form-login.thtest")
         Assertions.assertTrue(executor.isAllOK());
     }
 }
