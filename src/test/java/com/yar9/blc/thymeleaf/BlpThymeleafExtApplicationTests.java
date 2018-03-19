@@ -1,4 +1,4 @@
-package com.yar9.blp.thymeleaf;
+package com.yar9.blc.thymeleaf;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

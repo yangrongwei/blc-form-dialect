@@ -1,4 +1,4 @@
-package com.yar9.blp.thymeleaf.dialects.blc
+package com.yar9.blc.thymeleaf.dialects.blc
 
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test

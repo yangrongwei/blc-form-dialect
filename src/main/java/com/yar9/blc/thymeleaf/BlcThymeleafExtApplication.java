@@ -1,12 +1,12 @@
-package com.yar9.blp.thymeleaf;
+package com.yar9.blc.thymeleaf;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BlpThymeleafExtApplication {
+public class BlcThymeleafExtApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BlpThymeleafExtApplication.class, args);
+		SpringApplication.run(BlcThymeleafExtApplication.class, args);
 	}
 }

@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.yar9</groupId>
-	<artifactId>blp-thymeleaf-ext</artifactId>
+	<artifactId>blc-thymeleaf-ext</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>blp-thymeleaf-ext</name>
-	<description>Demo project for Spring Boot</description>
+	<name>blc-thymeleaf-ext</name>
+	<description>BLC Thymeleaf extract.</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

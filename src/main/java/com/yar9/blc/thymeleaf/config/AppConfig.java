@@ -1,6 +1,6 @@
-package com.yar9.blp.thymeleaf.config;
+package com.yar9.blc.thymeleaf.config;
 
-import com.yar9.blp.thymeleaf.dialects.blc.BlcDialect;
+import com.yar9.blc.thymeleaf.dialects.blc.BlcDialect;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.thymeleaf.spring5.SpringTemplateEngine;
