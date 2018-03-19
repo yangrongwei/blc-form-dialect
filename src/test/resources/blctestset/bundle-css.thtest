@@ -1,25 +1,26 @@
-# templates/layout/partials/head.html
+%TEMPLATE_MODE HTML5
 # ------------------------------------------
+# templates/layout/partials/head.html
+#
 %INPUT
-       <blc:bundle name="admin/admin.css"
-                    mapping-prefix="/css/"
-                    files="admin/icon-style.css,
-                           admin/bootstrap.css,
-                           admin/font-awesome.min.css,
-                           admin/blc-query-builder.css,
-                           admin/jquery-ui-1.10.2.custom.css,
-                           admin/jquery.mCustomScrollbar.css,
-                           admin/selectize-admin-customizations.css" ></blc:bundle>
+   <blc:bundle name="admin/admin.css"
+                mapping-prefix="/css/"
+                files="admin/icon-style.css,
+                       admin/bootstrap.css,
+                       admin/font-awesome.min.css,
+                       admin/blc-query-builder.css,
+                       admin/jquery-ui-1.10.2.custom.css,
+                       admin/jquery.mCustomScrollbar.css,
+                       admin/selectize-admin-customizations.css"
+                       >
+   </blc:bundle>
 
 # ------------------------------------------
 %OUTPUT
-
-       <script name="admin/admin.css"
-                    mapping-prefix="/css/"
-                    files="admin/icon-style.css,
-                           admin/bootstrap.css,
-                           admin/font-awesome.min.css,
-                           admin/blc-query-builder.css,
-                           admin/jquery-ui-1.10.2.custom.css,
-                           admin/jquery.mCustomScrollbar.css,
-                           admin/selectize-admin-customizations.css" ></blc:bundle>
+  <link rel='stylesheet' href='/testing/css/admin/icon-style.css'/>
+ <link rel='stylesheet' href='/testing/css/admin/bootstrap.css' />
+ <link rel='stylesheet' href='/testing/css/admin/font-awesome.min.css' />
+ <link rel='stylesheet' href='/testing/css/admin/blc-query-builder.css' />
+ <link rel='stylesheet' href='/testing/css/admin/jquery-ui-1.10.2.custom.css' />
+ <link rel='stylesheet' href='/testing/css/admin/jquery.mCustomScrollbar.css' />
+<link rel='stylesheet' href='/testing/css/admin/selectize-admin-customizations.css' />

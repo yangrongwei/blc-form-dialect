@@ -1,10 +1,24 @@
 %TEMPLATE_MODE HTML5
 # ------------------------------------------
+# templates/layout/partials/footer.html
+#
 %INPUT
-    <blc:bundle name="admin-init.js"
+<blc:bundle name="admin.js"
                 mapping-prefix="/js/"
-                files="admin/blc-admin-init.js" ></blc:bundle>
+                files="BLC.js,
+                       BLC-system-property.js,
+                       blc-dates.js,
+
+                       admin/ui/dates.js,
+
+                       admin/components/sessionTimer.js" ></blc:bundle>
 
 # ------------------------------------------
+# "/testing" prefix is request.contextPath
+#
 %OUTPUT
-   <script src="/js/admin/blc-admin-init.js"/>
+    <script src="/testing/js/BLC.js"/>
+    <script src="/testing/js/BLC-system-property.js"/>
+    <script src="/testing/js/blc-dates.js"/>
+    <script src="/testing/js/admin/ui/dates.js"/>
+    <script src="/testing/js/admin/components/sessionTimer.js"/>
